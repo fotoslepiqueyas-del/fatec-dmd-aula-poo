@@ -1,0 +1,3 @@
+Nome: Yasmim
+Atividade: Meu primeiro repositório Git
+Data: 11/09/2026
