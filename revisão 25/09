@@ -1,0 +1,44 @@
+public class Main {
+    
+public static void main (String[] args) {
+    int x - soma(); 
+    System.out.print(x);
+}
+
+private static int soma(int[] v) {
+    int soma = 0; 
+    for (int i = 0, i < v.length; i++) {
+        soma += V[i];
+    }
+    return soma;
+}
+     System.out.print(soma);
+}
+ 
+public class SalaDeAula {
+    public static void main(String[] args) {
+        int[][] sala = {
+            {1, 0, 0, 0, 0, 0},
+            {0, 0, 0, 1, 1, 0},
+            {1, 1, 0, 0, 0, 0},
+            {1, 0, 1, 0, 0, 0},
+            {1, 0, 0, 0, 0, 0},
+            {0, 1, 0, 1, 1, 1},
+            {1, 1, 0, 0, 1, 1}
+        };
+        System.out.println(soma(sala));
+
+        // Laço para imprimir o mapa da sala no console
+        for (int i = 0; i < sala.length; i++) {
+            for (int j = 0; j < sala[i].length; j++) {
+                System.out.print(sala[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+}
+
+
+}
